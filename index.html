@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="funksjon.js"></script>
+    <title>Business game</title>
+</head>
+<body>
+    <h1>M: <span id="penger">0</span></h1>
+    <h1>Shops: <span id="shop">0</span></h1>
+<div class="countainer">
+
+<div class="bc">
+    <button onclick="betingelse()">trykk en gang</button> 
+</div>
+    <br>
+<div class="bc">
+    <button class="click" onclick="Dyr()">Dyr butikk <span id="dyrCounter"></span></button>
+    <button class="upgrade" onclick="upgradeDyr()">Upgrade <span id="uppgradeDyrCounter"></span></button>
+</div>
+    <br>
+<div class="bc">
+    <button class="click" onclick="Lekke()">Lekke butikk <span id="lekkeCounter"></span></button>
+    <button class="upgrade" onclick="upgradeLekke()">Upgrade <span id="uppgradeLekkeCounter"></span></button>
+</div>
+    <br>
+<div class="bc">
+    <button class="click" onclick="Spill()">Spill butikk <span id="spillCounter"></span></button>
+    <button class="upgrade" onclick="upgradeSpill()">Upgrade <span id="uppgradeSpillCounter"></span></button>
+</div>
+    <br>
+<div class="bc">
+    <button class="click" onclick="Mat()">Mat butikk <span id="matCounter"></span></button>
+    <button class="upgrade" onclick="upgradeMat()">Upgrade <span id="uppgradeMatCounter"></span></button>
+</div>
+
+</div>
+
+<div class="statistikk">
+   
+
+<div class="countainer">
+    <h2>Statistikk</h2>
+    <button class="stb" onclick="shoppingMall()">Kjøpe senter <span id="mallSho"></span></button>
+    <button class="stb" onclick="school()">Skole <span id="school"></span></button>
+    <button class="stb" onclick="city()">By <span id="by"></span></button>
+    <button class="stb" onclick="kindergarten()">Barnehage <span id="barnehage"></span></button>
+    <button class="stb" onclick="zoo()">Dyrepark <span id="dyrepark"></span></button>
+</div>
+
+</div>
+
+</body>
+</html>

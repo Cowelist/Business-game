@@ -1,0 +1,56 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+ }
+ img{
+    max-width: 100%;
+    display: block;
+ } 
+
+
+
+/* .countainer{
+    position: relative;
+    width: 3rem;
+    height: 2rem;
+    margin: 3px;
+}    */
+
+
+
+/* .upgrade{
+    width: 5rem;
+    height: 3.4rem;
+}
+
+.bc{
+  
+}
+
+.upgrade{
+    margin: 2px;
+}
+
+.statistikk{
+    display: flex;
+    justify-content: center;
+}
+
+.stb{
+    height: 10rem;
+    width: 10rem;
+} */
+
+
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
